@@ -27,30 +27,28 @@ Lab Screenshots & Evidence
 1. Linux Agent Installation & Status
 Description:
  Successful installation and active running status of the Wazuh agent on the Linux Acer PC. Verified that the agent service is actively communicating with the central Wazuh manager via secure channels.
-
-<img width="1600" height="953" alt="image_1" src="https://github.com/user-attachments/assets/964668a8-21c7-466f-8dba-782dc16db1be" />
+screenshot:![Image 1](image1.jpeg).
 
 
 2. Wazuh Discover / Logs (Authentication Failure)
-Description: Captured PAM and unix_chkpwd system logs displaying explicit failed password attempts (Rule ID: 5557, Severity Level 5). This validates how raw operating system logs are parsed into structured security events.
-
-<img width="1502" height="850" alt="image_2" src="https://github.com/user-attachments/assets/866ff40f-e41e-43bf-b467-689bd84f68c0" />
+Description: Captured PAM and unix_chkpwd system logs displaying explicit failed password attempts (Rule ID: 5557, Severity Level 5).
+This validates how raw operating system logs are parsed into structured security events.
+![Image 2](image2.jpeg)
 
 
 3. MITRE ATT&CK Dashboard Analysis
 Description:
 Real-time mapping of detected security events against the MITRE ATT&CK framework, categorizing the malicious or failed login attempts under Credential Access (Technique: T1110.001 - Password Guessing).
 
-figure 1:<img width="1600" height="897" alt="image_3" src="https://github.com/user-attachments/assets/728a7825-2cac-487d-ae76-3116f6cfda8c" />
-figure 2:<img width="1592" height="904" alt="image_4" src="https://github.com/user-attachments/assets/c5c02897-6d06-4cbb-9d83-7cfd7419a81e" />
-
+![Image 3](image3.jpeg)
+![Image 4](image4.jpeg)
 
 4. Threat Hunting Summary & Analytics
 Description:
 Comprehensive overview showing total alert metrics, agent distribution across the network, and frequency of authentication failures to monitor overall endpoint security posture.
 
-figure 1:<img width="1600" height="916" alt="image_5" src="https://github.com/user-attachments/assets/9c0b82c9-4dcd-41de-8048-4cb39099adc5" />
-figure 2:<img width="1332" height="798" alt="image_6" src="https://github.com/user-attachments/assets/74243f05-aaea-4df3-ab36-cdaec1361b18" />
+![Image 5](image5.jpeg)
+![Image 6](image6.jpeg)
 
 
 Conclusion
