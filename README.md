@@ -1,6 +1,7 @@
 # SOC Home Lab - Wazuh SIEM Deployment & Threat Monitoring
 
 ## Project Overview
+
 Implemented a Wazuh SIEM home lab on an Acer PC and Windows to monitor endpoint logs, analyze MITRE ATT&CK threats, and detect authentication failures via a central dashboard.
 
 ---
@@ -8,7 +9,9 @@ Implemented a Wazuh SIEM home lab on an Acer PC and Windows to monitor endpoint 
 ## Architecture & Implementation Steps
 
 ### 1. Environment Setup
-Wazuh Server: Deployed and hosted on a local server (IP: 10.163.225.136).
+Wazuh Server: 
+Deployed and hosted on a local server (IP: 10.163.225.136).
+
 Endpoints Monitored:
   Linux Endpoint :Agent installed with IP 192.168.100.5.
   Windows Endpoint:Windows 10 instance connected to the manager.
