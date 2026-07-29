@@ -27,7 +27,8 @@ Lab Screenshots & Evidence
 1. Linux Agent Installation & Status
 Description:
  Successful installation and active running status of the Wazuh agent on the Linux Acer PC. Verified that the agent service is actively communicating with the central Wazuh manager via secure channels.
-screenshot:![Image 1](image1.jpeg).
+screenshot:
+![Image 1](image1.jpeg)
 
 
 2. Wazuh Discover / Logs (Authentication Failure)
