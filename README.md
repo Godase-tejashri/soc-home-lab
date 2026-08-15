@@ -29,28 +29,28 @@ Description:
 Successful installation and active running status of the Wazuh agent on the Linux Acer PC. Verified that the agent service is actively communicating with the central Wazuh manager via secure channels.
 screenshot:
 
-![Image 1](image1.jpeg)
+image1.jpeg
 
 2. Wazuh Discover / Logs (Authentication Failure)
 Description: Captured PAM and unix_chkpwd system logs displaying explicit failed password attempts (Rule ID: 5557, Severity Level 5).
 This validates how raw operating system logs are parsed into structured security events.
 screenshot:
-![Image 2](image2.jpeg)
+image2.jpeg
 
 
 3. MITRE ATT&CK Dashboard Analysis
 Description:
 Real-time mapping of detected security events against the MITRE ATT&CK framework, categorizing the malicious or failed login attempts under Credential Access (Technique: T1110.001 - Password Guessing).
 
-![Image 3](image3.jpeg)
-![Image 4](image4.jpeg)
+image3.jpeg
+image4.jpeg
 
 4. Threat Hunting Summary & Analytics
 Description:
 Comprehensive overview showing total alert metrics, agent distribution across the network, and frequency of authentication failures to monitor overall endpoint security posture.
 
-![Image 5](image5.jpeg)
-![Image 6](image6.jpeg)
+image5.jpeg
+image6.jpeg
 
 
 Conclusion
